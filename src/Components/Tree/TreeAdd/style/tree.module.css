@@ -1,0 +1,29 @@
+.addForm {
+  display: flex;
+  margin-top: 10px;
+}
+
+.addForm > input {
+  width: 240px;
+  padding: var(--padding);
+  border-radius: 5px 0 0 5px;
+  border: 1px solid var(--blue);
+  outline: none;
+  color: var(--blue);
+  text-indent: 10px;
+  margin: 0 5px;
+
+}
+
+.addForm > button {
+  width: 35px;
+  padding: var(--padding);
+  border-radius: 0 5px 5px 0;
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  outline: none;
+}
+
+ button >i{
+  color: var(--blue);
+}

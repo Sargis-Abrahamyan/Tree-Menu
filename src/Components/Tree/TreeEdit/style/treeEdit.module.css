@@ -1,0 +1,27 @@
+  .editForm {
+    margin: 8px;
+  }
+
+  .editForm > input {
+    width: 240px;
+    padding: var(--padding);
+    border-radius: 5px 0 0 5px;
+    border: 1px solid var(--orange);
+    outline: none;
+    color: var(--blue);
+    text-indent: 10px;
+    color: var(--orange);
+  }
+
+  .editForm > button {
+    width: 35px;
+    padding: var(--padding);
+    border-radius: 0 5px 5px 0;
+    border: 1px solid var(--orange);
+    cursor: pointer;
+    outline: none;
+  }
+
+  .editBtn > i {
+    color: var(--orange);
+  }

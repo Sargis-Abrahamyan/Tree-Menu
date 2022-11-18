@@ -1,0 +1,78 @@
+li {
+  list-style: none;
+  margin: 26px 90px;
+}
+
+.addBtn > i {
+  color: var(--blue);
+}
+
+.openMenuBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.openMenuBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.openMenuBtn > i {
+  color: var(--black);
+}
+
+.btnBlock {
+  width: 275px;
+  padding: var(--padding);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid var(--blue);
+}
+
+.treeBtnBlock {
+  display: flex;
+}
+
+.treeBtnBlock > button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.removeBtn > i {
+  color: var(--red);
+}
+
+.editBtn > i {
+  color: var(--orange);
+}
+
+.modalClose {
+  width: 21px;
+  padding: 3px;
+  background-color: var(--red);
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+
+.modalClose > i {
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+  transition: 0.5s;
+}
+
+a:hover {
+  color: var(--red);
+  transition: 0.5s;
+}
