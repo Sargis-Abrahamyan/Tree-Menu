@@ -19,7 +19,7 @@ const TreeEdit = ({ item, actions, setEditOpen }) => {
             <input type={"text"} value={newUrl} onChange={(e) => setNewUrl(e.target.value)} placeholder="new Url..." />
             <button className={styles.editBtn}><i className="fa-solid fa-file-pen"></i></button>
 
-        </form>
+        </form> 
 
     )
 }
