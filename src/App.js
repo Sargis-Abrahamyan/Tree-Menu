@@ -23,7 +23,6 @@ function App() {
     }
     else {
       parent.push(new Branch(name, url));
-    
     }
     setTree((prev) => [...prev]);
     localStorage.setItem("tree", JSON.stringify(tree))
@@ -45,18 +44,15 @@ function App() {
     // emiting re-render
     setTree((prev) => [...prev]);
     localStorage.setItem("tree", JSON.stringify(tree))
-
   };
 
   const editItem = (item, name, newUrl) => {
     // Search the index of the item
     item.url = newUrl
     item.name = name;
-
     // emiting re-render
     setTree((prev) => [...prev]);
     localStorage.setItem("tree", JSON.stringify(tree))
-
   };
 
   const actions = {
