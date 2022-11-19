@@ -2,7 +2,7 @@ import React from "react";
 
 import TreeItem from "./TreeItem/TreeItem";
 
-const Tree = ({ items, actions, setTree,parent }) => {
+const Tree = ({ items, actions, setTree }) => {
 
   return (
     <div style={{ display: "flex" }}>
